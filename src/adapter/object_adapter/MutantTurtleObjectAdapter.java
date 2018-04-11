@@ -3,11 +3,11 @@ package adapter.object_adapter;
 import adapter.MutantTurtle;
 import adapter.Turtle;
 
-public class TurtleObjectAdapter implements MutantTurtle{
+public class MutantTurtleObjectAdapter implements MutantTurtle{
 
     private Turtle turtle;
 
-    public TurtleObjectAdapter(Turtle turtle) {
+    public MutantTurtleObjectAdapter(Turtle turtle) {
         this.turtle = turtle;
     }
 
