@@ -1,6 +1,7 @@
 package adapter;
 
 public class TeenageMutantNinjaTurtle implements MutantTurtle {
+
     @Override
     public void speak() {
         System.out.println("DIE");
