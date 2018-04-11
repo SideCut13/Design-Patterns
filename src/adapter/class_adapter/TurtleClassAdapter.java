@@ -1,13 +1,13 @@
 package adapter.class_adapter;
 
-import adapter.ChinesePondTurtle;
-import adapter.MutantTurtle;
+import adapter.TeenageMutantNinjaTurtle;
+import adapter.Turtle;
 
-public class TurtleClassAdapter extends ChinesePondTurtle implements MutantTurtle {
+public class TurtleClassAdapter extends TeenageMutantNinjaTurtle implements Turtle{
 
     @Override
-    public void speak() {
-        super.sound();
+    public void sound() {
+        super.speak();
     }
 
     @Override

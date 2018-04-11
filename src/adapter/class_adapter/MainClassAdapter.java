@@ -1,13 +1,13 @@
 package adapter.class_adapter;
 
-import adapter.MutantTurtle;
+import adapter.Turtle;
 
 public class MainClassAdapter {
     public static void main(String[] args) {
 
-        MutantTurtle mutantTurtle = new TurtleClassAdapter();
+        Turtle turtle = new TurtleClassAdapter();
         System.out.println("Turtle class adapter says: ");
-        mutantTurtle.speak();
-        mutantTurtle.eat();
+        turtle.sound();
+        turtle.eat();
     }
 }
