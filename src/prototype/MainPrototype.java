@@ -13,8 +13,8 @@ public class MainPrototype {
         strings.add(sheep2.getName());
 
         System.out.println("Clone sheep: " + sheep2.getName());
-        System.out.println("First sheep list:" + sheep.getSheepList());
-        System.out.println("Clone sheep list:" + sheep2.getSheepList());
+        System.out.println("First sheep list: " + sheep.getSheepList());
+        System.out.println("Clone sheep list: " + sheep2.getSheepList());
         for (int i = 0; i < strings.size(); i++) {
             System.out.println("Element list " + i + " value " + strings.get(i));
         }
