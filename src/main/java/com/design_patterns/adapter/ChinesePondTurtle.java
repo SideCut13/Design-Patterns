@@ -4,11 +4,11 @@ public class ChinesePondTurtle implements Turtle {
 
     @Override
     public void sound() {
-        System.out.println("Plum plum");
+        System.out.print("Plum plum");
     }
 
     @Override
     public void eat() {
-        System.out.println("I eat shrimps!");
+        System.out.print("I eat shrimps!");
     }
 }

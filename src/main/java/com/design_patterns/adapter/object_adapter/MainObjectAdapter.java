@@ -11,6 +11,7 @@ public class MainObjectAdapter {
         MutantTurtle mutantTurtle = new MutantTurtleObjectAdapter(turtle);
         System.out.println("Mutant turtle object adapter says:");
         mutantTurtle.speak();
+        System.out.print("\n");
         mutantTurtle.eat();
     }
 }
